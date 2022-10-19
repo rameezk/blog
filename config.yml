@@ -1,0 +1,98 @@
+baseURL: https://rameezkhan.me/
+languageCode: en-gb
+title: rameezkhan.me
+
+theme: "PaperMod"
+
+paginate: 5
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: rameezkhan.me
+  description: "Rameez's personal site and blog"
+  keywords: [blog, portfolio, resume]
+  profileMode:
+    enabled: true
+    title: "Rameez Khan"
+    subtitle: "Hacker of {things}"
+    imageUrl: "/avatar.jpg"
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Projects
+        url: projects
+      - name: Resume
+        url: resume
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/rameezk"
+    - name: gitlab
+      url: "https://gitlab.com/rameezkhan"
+    - name: linkedin
+      url: "https://linkedin.com/in/khanrameez/"
+    - name: twitter
+      url: "https://twitter.com/RameezKhanSA/"
+    - name: keybase
+      url: "https://keybase.io/rameezkhan"
+    - name: rss
+      url: "/index.xml"
+
+  defaultTheme: auto
+  ShowRssButtonInSectionTermList: true
+
+  label:
+      text: "rameezkhan.me"
+      icon: /apple-touch-icon.png
+      iconHeight: 35
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+
+  ShowCodeCopyButtons: true
+
+  assets:
+    disableHLJS: true
+
+
+menu:
+  main:
+    - identifier: archive
+      name: Archive
+      url: /archives
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    style: dracula
+
+# permalinks:
+#   posts: "/:title/"
