@@ -4,3 +4,6 @@
 [build]
 publish = "public"
 command = "make build"
+
+[context.deploy-preview]
+command = "make build-preview"
