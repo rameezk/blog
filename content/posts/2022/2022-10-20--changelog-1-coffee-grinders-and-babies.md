@@ -1,7 +1,7 @@
 ---
 title: "Changelog #1: Coffee Grinders and Babies"
 date: 2022-10-20T09:51:37+02:00
-draft: true
+draft: false
 tags: ["coffee", "grinder", "parenting", "babies"]
 author: "Rameez Khan"
 showToc: true
