@@ -63,6 +63,8 @@ params:
   assets:
     disableHLJS: true
 
+  showShareButtons: true
+
 
 menu:
   main:
@@ -94,5 +96,5 @@ markup:
     lineNos: false
     style: dracula
 
-# permalinks:
-#   posts: "/:title/"
+taxonomies:
+  series: series

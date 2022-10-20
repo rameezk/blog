@@ -1,11 +1,8 @@
 dev:
-	hugo server -D --disableFastRender
+	hugo server -D
 
 build:
 	hugo --gc --minify --verbose
-
-build:
-	hugo -D --gc --minify --verbose
 
 update-theme:
 	git submodule update --remote --merge
