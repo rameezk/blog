@@ -30,7 +30,7 @@ cover:
 ![Banner](once-off-command-with-nix-banner.png)
 
 ## No need to pollute your system environment
-In the [last post](https://rameezkhan.me/per-project-packages-using-nix-and-direnv/) we discussed why it might not we wise to pollute your system (or global) environment by installing programs you'll only run once.
+In the [last post](https://rameezkhan.me/per-project-packages-using-nix-and-direnv/) we discussed why it might not be wise to pollute your system (or global) environment by installing programs you'll only run once.
 
 Often, these programs are installed and then forgotten about causing unnecessary bloat. 
 
