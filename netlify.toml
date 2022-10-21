@@ -6,4 +6,9 @@ publish = "public"
 command = "make build"
 
 [context.deploy-preview]
-command = "make build-preview"
+command = "hugo --buildDrafts --gc --minify --buildFuture --baseUrl $DEPLOY_PRIME_URL --verbose"
+
+[[redirects]]
+from = "/npmjs/*"
+to = "/npmjs/"
+status = 200
