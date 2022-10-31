@@ -5,5 +5,6 @@ in pkgs.mkShell rec {
   buildInputs = with pkgs; [
     hugo
     git-lfs
+    python311
   ];
 }
