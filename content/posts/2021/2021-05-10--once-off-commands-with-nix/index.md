@@ -8,7 +8,6 @@ showToc: true
 TocOpen: false
 draft: false
 hidemeta: false
-comments: false
 disableShare: false
 disableHLJS: false
 hideSummary: false
