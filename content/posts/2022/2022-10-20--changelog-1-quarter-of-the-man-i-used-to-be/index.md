@@ -7,7 +7,6 @@ author: "Rameez Khan"
 showToc: true
 TocOpen: false
 hidemeta: false
-comments: false
 disableShare: false
 disableHLJS: false
 hideSummary: false

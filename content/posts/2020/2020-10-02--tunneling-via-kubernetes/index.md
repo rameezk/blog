@@ -8,7 +8,6 @@ showToc: true
 TocOpen: false
 draft: false
 hidemeta: false
-comments: false
 # canonicalURL: "https://canonical.url/to/page"
 disableShare: false
 disableHLJS: false

@@ -67,6 +67,8 @@ params:
 
   showShareButtons: true
 
+  comments: true
+
 
 menu:
   main:
