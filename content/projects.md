@@ -11,7 +11,7 @@ All of them built to learn.
 
 ## Financial Health App
 
-Simple dashboard for tracking your financial health. Built in ClojureScript. See [live version](https://financialhealth.app) or [code](https://github.com/rameezk/financial-health-dashboard).
+Simple dashboard for tracking your financial health. Built in ClojureScript. See [live version](https://financialhealthapp.rameezkhan.dev) or [code](https://github.com/rameezk/financial-health-dashboard).
 
 ## Timer
 
