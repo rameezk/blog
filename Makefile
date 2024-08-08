@@ -10,7 +10,7 @@ dev:
 	hugo server -D
 
 build:
-	hugo --gc --minify --logLevel info
+	hugo --gc --minify --verbose
 
 update-theme:
 	git submodule update --remote --merge
