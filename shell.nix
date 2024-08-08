@@ -1,7 +1,7 @@
 let 
   pkgs = import <nixpkgs> { };
 in pkgs.mkShell rec {
-  name = "new-blog";
+  name = "blog";
   buildInputs = with pkgs; [
     hugo
     git-lfs
