@@ -10,7 +10,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: 386349970
+googleAnalytics: G-T3G12MK56J
 
 minify:
   disableXML: true
