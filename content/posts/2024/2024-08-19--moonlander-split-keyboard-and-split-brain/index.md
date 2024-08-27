@@ -17,7 +17,7 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-series: []
+series: ["learning-colemak"]
 ---
 
 If you were to ask a programmer what their number one productivity tool in their arsenal is, I'd bet very few would say "a keyboard".
