@@ -21,9 +21,6 @@ Timer written in ClojureScript. Mainly to learn re-frame. See [live version](htt
 
 A plugin for tmux showing you the current context specified for k8s. Plugin is [TPM](https://github.com/tmux-plugins/tpm) friendly. [Code here](https://github.com/rameezk/tmux-kubectl).
 
-## the-one-true-khan 
-~~Arguably my greatest work. There can only be one true Khan. [https://whois.theonetruekhan.com](https://whois.theonetruekhan.com)~~
-
 ## recipes
 Some recipes I've collected over the years. Static Site Geneator (Markdown to HTML) in less that 100 lines of code. See [recipes](https://recipes.app.rameezkhan.dev) or [repo](https://github.com/rameezk/recipes).
 
