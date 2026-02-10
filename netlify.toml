@@ -1,15 +1,15 @@
 [context.production.environment]
-  HUGO_VERSION = "0.96.0"
+  HUGO_VERSION = "0.155.2"
 
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.96.0"
+  HUGO_VERSION = "0.155.2"
 
 [build]
 publish = "public"
 command = "make build"
 
 [context.deploy-preview]
-command = "hugo --buildDrafts --gc --minify --buildFuture --baseUrl $DEPLOY_PRIME_URL --verbose"
+command = "hugo --buildDrafts --gc --minify --buildFuture --baseURL $DEPLOY_PRIME_URL"
 
 [[redirects]]
 from = "/npmjs/*"

@@ -10,10 +10,10 @@ dev:
 	hugo server -D
 
 build:
-	hugo --gc --minify --verbose
+	hugo --gc --minify
 
 update-theme:
-	git submodule update --remote --merge
+	hugo mod get -u
 
 bump-changelog-counter:
 	@python scripts/bump_changelog_posts_counter.py
