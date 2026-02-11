@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(nix develop:*)"
+      "Bash(nix develop:*)",
+      "mcp__filesystem__directory_tree",
+      "mcp__filesystem__list_directory",
+      "Bash(ls:*)",
+      "mcp__filesystem__read_text_file"
     ]
   }
 }
